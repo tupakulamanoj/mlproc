@@ -9,6 +9,7 @@ def get_requires(require:str)->List[str]:
         requirements=[i.replace('/n',' ') for i in requirements]
         if hypen in requirements:
             requirements.remove(hypen)
+    return  requirements
 
 
 

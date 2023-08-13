@@ -2,4 +2,7 @@ numpy
 pandas
 seaborn
 pyforest
+catboost
+scikit-learn
+xgboost
 -e .
